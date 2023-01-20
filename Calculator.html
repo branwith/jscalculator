@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR | BRANWITH ADVERTISING</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./Script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-body"></div>
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+            <div class="buttons">
+                <button onclick="clearDisplay(7)" class="btn">C</button>
+                <div class="row">
+                    <button onclick="buttonclick(7)" class="btn">7</button>
+                    <button onclick="buttonclick(8)" class="btn">8</button>
+                    <button onclick="buttonclick(9)" class="btn">9</button>
+                    <button onclick="buttonclick('/')" class="btn">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick(4)" class="btn">4</button>
+                    <button onclick="buttonclick(5)" class="btn">5</button>
+                    <button onclick="buttonclick(6)" class="btn">6</button>
+                    <button onclick="buttonclick('*')" class="btn">X</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick(1)" class="btn">1</button>
+                    <button onclick="buttonclick(2)" class="btn">2</button>
+                    <button onclick="buttonclick(3)" class="btn">3</button>
+                    <button onclick="buttonclick('-')" class="btn">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick('.')" class="btn">.</button>
+                    <button onclick="buttonclick(0)" class="btn">0</button>
+                    <button onclick="buttonclick('+')" class="btn">+</button>
+                    <button onclick="equalClick()" class="equalbtn">=</button>
+                </div>
+            </div>
+            <div class="brand">
+                <h2>BRANWITH ADVERTISING</h2>
+            </div>
+        </div>
+</body>
+</html>
